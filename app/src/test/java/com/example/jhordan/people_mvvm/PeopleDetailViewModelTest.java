@@ -19,7 +19,7 @@ package com.example.jhordan.people_mvvm;
 import android.view.View;
 
 import com.example.jhordan.people_mvvm.data.FakeRandomUserGeneratorAPI;
-import com.example.jhordan.people_mvvm.model.People;
+import test.common.model.People;
 import com.example.jhordan.people_mvvm.viewmodel.PeopleDetailViewModel;
 
 import org.junit.Before;

@@ -21,9 +21,9 @@ import android.content.Intent;
 import android.databinding.Observable;
 import android.view.View;
 
-import com.example.jhordan.people_mvvm.model.Name;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.model.Picture;
+import test.common.model.Name;
+import test.common.model.People;
+import test.common.model.Picture;
 import com.example.jhordan.people_mvvm.viewmodel.ItemPeopleViewModel;
 
 import org.junit.Before;

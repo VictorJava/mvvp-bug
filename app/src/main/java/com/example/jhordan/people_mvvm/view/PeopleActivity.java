@@ -26,12 +26,16 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import com.example.jhordan.people_mvvm.R;
 import com.example.jhordan.people_mvvm.databinding.PeopleActivityBinding;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.viewmodel.PeopleViewModel;
-import com.example.jhordan.people_mvvm.viewmodel.PeopleViewModelContract;
+
 import java.util.List;
+
+import test.common.adapters.PeopleAdapter;
+import test.common.model.People;
+import test.common.vievmodel.PeopleViewModel;
+import test.common.vievmodel.PeopleViewModelContract;
 
 public class PeopleActivity extends AppCompatActivity implements PeopleViewModelContract.MainView {
 

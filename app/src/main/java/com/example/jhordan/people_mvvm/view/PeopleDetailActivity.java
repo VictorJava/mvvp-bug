@@ -25,7 +25,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.jhordan.people_mvvm.R;
 import com.example.jhordan.people_mvvm.databinding.PeopleDetailActivityBinding;
-import com.example.jhordan.people_mvvm.model.People;
+import test.common.model.People;
 import com.example.jhordan.people_mvvm.viewmodel.PeopleDetailViewModel;
 import com.example.jhordan.people_mvvm.viewmodel.PeopleDetailViewModelContract;
 

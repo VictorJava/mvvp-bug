@@ -20,7 +20,7 @@ import android.view.View;
 import com.example.jhordan.people_mvvm.data.FakeRandomUserGeneratorAPI;
 import com.example.jhordan.people_mvvm.data.PeopleService;
 import com.example.jhordan.people_mvvm.databinding.PeopleActivityBinding;
-import com.example.jhordan.people_mvvm.model.People;
+import test.common.model.People;
 import com.example.jhordan.people_mvvm.viewmodel.PeopleViewModel;
 import com.example.jhordan.people_mvvm.viewmodel.PeopleViewModelContract;
 import java.util.List;

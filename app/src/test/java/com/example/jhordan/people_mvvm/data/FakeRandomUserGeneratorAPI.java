@@ -16,10 +16,10 @@
 
 package com.example.jhordan.people_mvvm.data;
 
-import com.example.jhordan.people_mvvm.model.Location;
-import com.example.jhordan.people_mvvm.model.Login;
-import com.example.jhordan.people_mvvm.model.People;
-import com.example.jhordan.people_mvvm.model.Picture;
+import test.common.model.Location;
+import test.common.model.Login;
+import test.common.model.People;
+import test.common.model.Picture;
 
 import java.util.ArrayList;
 import java.util.List;
