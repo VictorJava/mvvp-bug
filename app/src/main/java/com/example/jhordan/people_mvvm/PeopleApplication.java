@@ -19,11 +19,10 @@ package com.example.jhordan.people_mvvm;
 import android.app.Application;
 import android.content.Context;
 
-import com.example.jhordan.people_mvvm.data.PeopleFactory;
-import com.example.jhordan.people_mvvm.data.PeopleService;
-
 import rx.Scheduler;
 import rx.schedulers.Schedulers;
+import test.common.data.PeopleFactory;
+import test.common.data.PeopleService;
 
 public class PeopleApplication extends Application {
 

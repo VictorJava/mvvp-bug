@@ -25,9 +25,10 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.jhordan.people_mvvm.R;
 import com.example.jhordan.people_mvvm.databinding.PeopleDetailActivityBinding;
+
 import test.common.model.People;
-import com.example.jhordan.people_mvvm.viewmodel.PeopleDetailViewModel;
-import com.example.jhordan.people_mvvm.viewmodel.PeopleDetailViewModelContract;
+import test.common.vievmodel.PeopleDetailViewModel;
+import test.common.vievmodel.PeopleDetailViewModelContract;
 
 public class PeopleDetailActivity extends AppCompatActivity
     implements PeopleDetailViewModelContract.DetailView {
